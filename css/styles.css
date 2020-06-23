@@ -1,0 +1,774 @@
+html, body{
+    
+    margin: 0;
+    padding: 0px;
+    scroll-behavior: smooth;
+    background: rgb(250,236,232);
+    
+    
+    }
+   
+    #contenedor {
+    width: 100%;
+    height: 100%;
+    
+    }
+ 
+
+    .formulario{
+        width: 500px;
+        height: auto;
+        max-width:60%;
+        margin-left: 240px; 
+        margin-top: 20px;
+        padding: 30px;
+        box-shadow: 0 0 20px 1px;
+        
+        float:center;
+    }
+    
+.title{
+    text-align: center;
+    margin-top:100px;
+    color: rgba(0,0,0,0.7);
+}
+.forminput, .formlabel, .formoselect, #submit{
+    display: block ;
+    width: 100%;
+    font-size: 1.3em;
+    
+}
+.forminput{
+    padding: 8px;
+    border: 1px;
+    border: 1px solid rgba(0,0,0,0.3);
+    margin-bottom:45px;
+    background: transparent;
+    margin-right: 30px;
+}
+.forminput:focus{
+    outline: 1px solid rgba(0,0,0,0.7);
+
+}
+.forminput:focus + .formlabel{
+    margin-top: -150px;
+
+}
+.formlabel{
+    padding-left: 15px;
+    position: absolute;
+    margin-top: -85px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;
+
+}
+.fechalabel{
+    position: absolute;
+    margin-top: -110px;
+    z-index: -20;
+    color: rgba(0,0,0,0.5);
+    transition: all 0.2s;   
+
+}
+.boton{
+    background:#1f4c3f;
+    color: white;
+    padding: 10px 50px;
+    cursor: pointer;
+    border: none;
+    margin-top:0px;
+    margin-left: 180px;
+    
+}
+.formselect{
+    background:#1f4c3f;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 8px;
+}
+#sexo{
+    background:#1f4c3f;
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 48px;
+}
+.fijar{
+    margin-top: -55px;
+}
+.error{
+    text-align: center;
+    margin-top: 10;
+    color: red;
+    z-index: 20;
+    font-size:55px;
+}
+ 
+    .imagen-redonda {
+        border-radius: 100%;
+        width: 150px;
+        height: 150px; 
+        float: center;
+        margin-right: 10px;
+        line-height: 150px;
+        margin-top: 100px;
+        margin-left: 15px;
+        
+    }
+
+  
+   
+    .active {
+     background-color:rgb(185, 183, 182);
+    } 
+    #header{
+        margin: auto;
+        width: 500px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+       #header ul li{
+        
+        display: block;
+        width: 120px;
+        float: left;
+        text-align:center;
+        position: relative;
+        
+
+        }
+        #header ul{
+            padding-left: 60%;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+            /* display:flex; */
+            justify-content:flex-end;
+            }
+     #header{
+        width: 100%;
+       height: 70px;
+       background-color:#1f4c3f;
+       line-height: 50px;
+       position:fixed;
+       top:0;
+      
+
+      }
+   
+    .nav li a{
+        background-color:#1f4c3f;
+        color: rgb(2, 2, 2);
+        text-align: center;
+        text-decoration: none;
+        padding: 10px 15px;
+        display: block;
+    }
+    .nav li a:hover{
+        background-color: #f4d9d5;
+        display: block;
+        color: rgb(0, 0, 0);
+
+    }
+   .nav > li {
+        float: left;
+    } 
+    .nav  li ul {
+     display: none;
+    position: absolute;
+    min-width: 150px;
+     
+     
+    }
+    .nav li:hover > ul{
+     display: block;
+        }
+     .nav li ul li {
+    position: relative;
+    
+     }
+
+     #cabecera {
+    margin-top: 70px; 
+    background-image: url(../img/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display:table;
+    width:100%;
+    height:350px;
+    text-align:left;
+    justify-content: center;
+    }  
+    .imagen-izquierda{
+        float:left;
+        border-radius: 100%;
+        width: 200px;
+        height: 200px; 
+        margin-right: 10px;
+        line-height: 150px;
+        margin-top: 15px;
+        margin-left: 15px;
+        }
+    .parrafo{
+        display: block;
+        font: size 16px;;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        margin-right: 100px;
+        margin-left: 100px;
+    } 
+ 
+    #transparente h2{
+    color:#fff;
+    text-align: center;
+    margin-top: 60px;
+    }
+  
+     
+    #productos{
+    margin-top:-450px;  
+    background-size: 100% 100%;
+    text-align:center;
+    color:rgb(8, 0, 0);
+    padding-top:45%;
+    width: 100%;
+    
+    
+    }
+
+    
+   
+    .imagen-redonda1{
+        border-radius: 100%;
+        width: 100px;
+        height: 100px; 
+        float: center;
+        margin-right: 20px;
+        margin-top: 15px;
+        margin-left: 40px;
+        border: 3px solid #1f4c3f;
+        box-shadow: 0 0 20px 1px;
+
+        }
+    
+  
+     /* galeria de los zapatos  */
+    .galeria{
+        width: 90%;
+        margin: auto;
+        list-style: none;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .galeria li{
+        margin: 5px;
+
+    }
+
+     .galeria img {
+         width: 425px;
+         height: 300px;
+         border: 3px solid #1f4c3f;
+         
+     }
+
+     /* eslitos del modal  */
+     .modal{
+        display: none;
+     }
+    .modal:target {
+        display: block;
+        position: fixed;
+        background: rgba(0, 0, 0,0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal h3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .imagen{
+        width: 100%;
+        height: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen a{
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid#fff;
+    box-sizing: border-box;
+        
+    }
+    .imagen a:nth-child(2){
+        margin: 0;
+        height: 100%;
+        flex-shrink: 2;
+
+    }
+
+    .cerrar {
+        display: block;
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        margin:15px auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+
+    /* galeria de los BOLSOS  */
+    .galeria2{
+        width: 90%;
+        margin: auto;
+        list-style: none;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .galeria2 li{
+        margin: 5px;
+
+    }
+
+     .galeria2 img {
+         width: 425px;
+         height: 300px;
+         border: 3px solid #1f4c3f;
+     }
+
+     /* eslitos del modal  */
+     .modal{
+        display: none;
+     }
+    .modal:target {
+        display: block;
+        position: fixed;
+        background: rgba(0, 0, 0,0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal h3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .imagen{
+        width: 100%;
+        height: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen a{
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid#fff;
+    box-sizing: border-box;
+        
+    }
+    .imagen a:nth-child(2){
+        margin: 0;
+        height: 100%;
+        flex-shrink: 2;
+
+    }
+
+    .cerrar {
+        display: block;
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        margin:15px auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+
+     /* galeria de MAQUILLAJE */
+     .galeria3{
+        width: 90%;
+        margin: auto;
+        list-style: none;
+        padding: 20px;
+        box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .galeria3 li{
+        margin: 5px;
+
+    }
+
+     .galeria3 img {
+         width: 425px;
+         height: 300px;
+         border: 3px solid #1f4c3f;
+     }
+
+     /* eslitos del modal  */
+     .modal{
+        display: none;
+     }
+    .modal:target {
+        display: block;
+        position: fixed;
+        background: rgba(0, 0, 0,0.8);
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .modal h3{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+        margin: 15px 0;
+    }
+
+    .imagen{
+        width: 100%;
+        height: 50%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .imagen a{
+        color: white;
+        font-size: 40px;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+    .imagen img{
+    width: 500px;
+    height: 100%;
+    max-width: 100%;
+    border: 7px solid#fff;
+    box-sizing: border-box;
+        
+    }
+    .imagen a:nth-child(2){
+        margin: 0;
+        height: 100%;
+        flex-shrink: 2;
+
+    }
+
+    .cerrar {
+        display: block;
+        background: #fff;
+        width: 25px;
+        height: 25px;
+        margin:15px auto;
+        text-align: center;
+        text-decoration: none;
+        font-size: 25px;
+        color: black;
+        padding: 5px;
+        border-radius: 50%;
+        line-height: 25px;
+    }
+
+         /* galeria de ROPA */
+         .galeria4{
+            width: 90%;
+            margin: auto;
+            list-style: none;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .galeria4 li{
+            margin: 5px;
+    
+        }
+    
+         .galeria4 img {
+             width: 425px;
+             height: 300px;
+             border: 3px solid #1f4c3f;
+         }
+    
+         /* eslitos del modal  */
+         .modal{
+            display: none;
+         }
+        .modal:target {
+            display: block;
+            position: fixed;
+            background: rgba(0, 0, 0,0.8);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .modal h3{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin: 15px 0;
+        }
+    
+        .imagen{
+            width: 100%;
+            height: 50%;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imagen a{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .imagen img{
+        width: 500px;
+        height: 100%;
+        max-width: 100%;
+        border: 7px solid#fff;
+        box-sizing: border-box;
+            
+        }
+        .imagen a:nth-child(2){
+            margin: 0;
+            height: 100%;
+            flex-shrink: 2;
+    
+        }
+    
+        .cerrar {
+            display: block;
+            background: #fff;
+            width: 25px;
+            height: 25px;
+            margin:15px auto;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            padding: 5px;
+            border-radius: 50%;
+            line-height: 25px;
+        }
+/* // accesorios  */
+        .galeria5{
+            width: 90%;
+            margin: auto;
+            list-style: none;
+            padding: 20px;
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .galeria5 li{
+            margin: 5px;
+    
+        }
+    
+         .galeria5 img {
+             width: 425px;
+             height: 300px;
+             border: 3px solid #1f4c3f;
+         }
+    
+         /* eslitos del modal  */
+         .modal{
+            display: none;
+         }
+        .modal:target {
+            display: block;
+            position: fixed;
+            background: rgba(0, 0, 0,0.8);
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    
+        .modal h3{
+            color: white;
+            font-size: 30px;
+            text-align: center;
+            margin: 15px 0;
+        }
+    
+        .imagen{
+            width: 100%;
+            height: 50%;
+    
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .imagen a{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        .imagen img{
+        width: 500px;
+        height: 100%;
+        max-width: 100%;
+        border: 7px solid#fff;
+        box-sizing: border-box;
+            
+        }
+        .imagen a:nth-child(2){
+            margin: 0;
+            height: 100%;
+            flex-shrink: 2;
+    
+        }
+    
+        .cerrar {
+            display: block;
+            background: #fff;
+            width: 25px;
+            height: 25px;
+            margin:15px auto;
+            text-align: center;
+            text-decoration: none;
+            font-size: 25px;
+            color: black;
+            padding: 5px;
+            border-radius: 50%;
+            line-height: 25px;
+        }
+
+
+
+    
+    #pie{
+    margin-top: 150px;
+    height: 100px;
+    width: 100%;
+    background-color: #1f4c3f;
+    line-height: 50px;
+    text-align: center;
+
+
+    }
+    .container-bar{
+        width: 100%;
+        max-width: 55px;
+        position: fixed;
+        left:0 ;
+        top: 25%;
+    }
+  .container-bar a{
+      display: block;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 17px;
+      position: relative;
+      transition: all 500ms ease;
+      color: white;
+  }
+  .container-bar a:hover{
+      background: #1c1c1c;
+
+  }
+  .container-bar .icon-facebook{
+      background: #3b5998;
+      border-radius: 0px 5px 0px 0px ;
+  }
+  .container-bar .icon-twitter{
+    background: #00acee;
+    border-radius: 0px 0px 5px 0px ;
+
+   
+  }
+  .container-bar .icon-youtube{
+    background: #e52a23;
+   
+  }
+  .container-bar .icon-instagram{
+    background:#e45675;
+   
+  }
+  .container-bar .icon-whatsapp{
+    background:#25D366;
+  }
+.container-bar #titlespam{
+position: fixed;
+background: #1c1c1c;
+padding: 6px;
+border-radius: 3px;
+font-size: 15px;
+margin-top: -4px;
+transition: all 500ms ease;
+opacity: 0;
+visibility: hidden;
+}
+.container-bar #titlespam::after{
+    position: absolute;
+    content: '';
+    border-left: 7px solid transparent;
+    border-right: 6px solid #1c1c1c;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    right: 100%;
+    top: 8px;
+
+}
+.container-bar a:hover #titlespam{
+    opacity:1;
+    visibility: visible;
+    margin-left:30px ;
+
+}
